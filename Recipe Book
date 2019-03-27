@@ -1,0 +1,338 @@
+<html>
+
+<head>
+  <title>Project: Recipe book</title>
+  <meta charset="utf-8">
+  <style>
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    body {
+
+      background-color: rgb(3, 255, 238);
+    }
+
+    h1 {
+
+      color: rgb(252, 5, 5);
+    }
+
+    h2 {
+      color: rgb(5, 21, 247);
+    }
+
+    p {
+      color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 id="top">Delicious Foods</h1>
+
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#recipe_1">Lemon Pancakes</a>
+      <a href="#recipe_2">Chocolate Peanut Butter Pie Bars</a>
+      <a href="#recipe_3">crazy brownies</a>
+    </div>
+  </div>
+
+  <h2 id="recipe_1">Lemon Pancakes</h2>
+  <img src="https://pioneerwoman.files.wordpress.com/2016/08/dsc_5359.jpg?w=780&h=521" width="335">
+
+  <ul>
+    <li>Time: 15m</li>
+    <li>Serves: 4</li>
+  </ul>
+  <a href="#top">To the top</a>
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>whole lemons</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cups Milk</td>
+        <td>2-1/4 2%%</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tablespoon Vanilla</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cups Flour</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tablespoons Baking Powder</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>teaspoon Salt</td>
+        <td>1/4</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>whole Eggs,Beaten</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cup Butter,Melted</td>
+        <td>1/4</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Steps:</strong>Zest both lemons. Set aside. Measure the milk and add the juice of 1 1/2 of the lemons. Stir and let sit for 5 minutes, then gently stir in the vanilla. <br><br>Stir together the flour, sugar, baking powder, and salt. Pour in
+    the milk/lemon mixture, stirring gently. When it's halfway mixed together, stir in the eggs, then the melted butter. Finally, stir in the lemon zest. (If the batter is overly thick at this stage, add up to 1/4 cup milk. <br><br>Heat an iron skillet
+    over medium heat, then add 2 tablespoons butter. When it's melted, drop in 1/4 cup helpings of batter, smoothing the top to help spread it into an even layer. Cook until golden and sizzly around the edges, then turn to the other side and finish cooking.
+    Remove and repeat with the rest of the batter. <br><br>Serve with butter, syrup, and extra lemon zest. (Can turn this into more of a dessert with a powdered sugar glaze and/or whipped cream!)
+  </p>
+  <h2 id="recipe_2">Chocolate Peanut Butter Pie Bars</h2>
+  <img src="https://pioneerwoman.files.wordpress.com/2016/08/no-bake-chocolate-peanut-butter-pie-bars-01.jpg?w=330&h=330&crop=1" width="335">
+  <ul>
+    <li>Time: 5m</li>
+    <li>Serves 30</li>
+  </ul>
+  <a href="#top">To the top</a>
+  <table>
+    <tbody>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <td>Regular Oreo Cookies</td>
+        <td>30</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tablespoons Unsalted Butter, melted</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cups Creamy Peanut Butter</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>ounces, weight Cream Cheese, Softened And At Room Temperature</td>
+        <td>16</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cups Powdered Sugar</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tablespoon Pure Vanilla Extract</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td> teaspoon Kosher Salt</td>
+        <td>1/8</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td> ounces, weight Whipped Topping (Such As Cool Whip), Thawed</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cups Semi-Sweet Chocolate Chips</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tablespoons Creamy Peanut Butter</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cup Heavy Whipping Cream</td>
+        <td>1/2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Oreo Cookies, Quartered</td>
+        <td></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Mini Peanut Butter Cups, Halved</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Steps:</strong>For the chocolate crust:<br>Line a 13 x 9 inch pan with foil,&nbsp;with ends of foil extending over the two long pan sides. In a food processor, pulse Oreos (whole, do not remove the filling) until finely ground. Drizzle in melted
+    butter and blitz a few more times to evenly combine. Press onto bottom of prepared pan. Place pan in freezer for 10 minutes while preparing the filling.<br><br>For the peanut butter filling:<br>In a large bowl, beat peanut butter and cream cheese
+    until smooth. Add powdered sugar, vanilla, and salt, and beat until smooth. With a rubber spatula, fold in whipped topping until completely combined. Spread filling evenly onto the top of the chilled chocolate crust. Chill for at least a couple hours
+    or overnight.<br><br>For the toppings (optional):<br>Add chocolate chips and peanut butter to a small to medium-sized heat-proof bowl. In a saucepan over medium to medium-high heat, bring cream to a rolling simmer. Pour cream over the chocolate chips
+    and peanut butter and let sit for 5 minutes. Then whisk until mixture is completely smooth. Let cool until mixture is just warm, but still nicely fluid. <br><br>Use a spoon to drizzle chocolate over individual bars or add chocolate to a plastic baggie,
+    snip off a small piece of the baggie's corner, and "pipe" chocolate over the bars. Finish by adding a piece of Oreo cookie and a few halved mini peanut butter cups to the top.<br><br>This dessert keeps very well in the refrigerator for a few days
+    and can easily be made a day before serving. This is a very sweet dessert. The recipe yields 24 large bars, sized for those with bigger sweet tooths, or 35 smaller bars.</p>
+  <h2 id="recipe_3">Crazy Brownies</h2>
+  <img src="https://pioneerwoman.files.wordpress.com/2014/05/crazy1.jpg?w=330&h=330&crop=1" width="335">
+  <ul>
+    <li>Time: 22m</li>
+    <li>Serves: 18</li>
+  </ul>
+  <a href="#top">To the top</a>
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>box Chocolate Cake Mix, 18 To 20 Ounce Box</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cup Evaporated Milk</td>
+        <td>1/3</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>stick Butter, Melted</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>whole Peanut Butter Cups (regular Size, With The Paper Pulled Off)</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>whole Rolo Candies</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cup Finely Chopped Pecans</td>
+        <td>1/2</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>cup M&Ms</td>
+        <td>1/3</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>teaspoon Salt</td>
+        <td>1/4</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Powdered Sugar (for Sprinkling)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong>Steps:</strong>Preheat the oven to 350 F.<br><br>Put the dry cake mix in a large bowl and stir in the evaporated milk. (Mixture will still be dry.) Next, pour in the melted butter, stirring gently until the mix just comes together (don't over-mix.)<br><br>Divide
+    the mixture in half and press half of it in the bottom of a greased 8 x 8-inch baking pan. Lay the peanut butter cups over the top. Peel the wrappers off of the Rolos and place them in the spaces between the peanut butter cups. Sprinkle nuts into
+    the cracks, followed by M&amp;M's. Finally, sprinkle the salt all over. <br><br>Put the other half of the batter on a cutting board and press it into a square a little smaller than the pan. (It will be very sticky.) Transfer it to the pan and lightly
+    press it to cover all the ingredients. Bake for 22 to 25 minutes, or until the batter is fully baked. Allow to cool completely, then place the pan in the fridge, covered in foil, for a couple of hours. <br><br>Remove the brownies from the pan in one
+    piece, then sprinkle on plenty of powdered sugar. With a sharp serrated knife, cut into small squares. <br><br>Gobble 'em up!</p>
+  
+  <h2>Dad's chesse balls</h2>
+  
+
+  <p><em>Source: <a href="http://thepioneerwoman.com/cooking_cat/all-pw-recipes/">Some recipes websites</a></em></p>
+
+</body>
+
+</html>
